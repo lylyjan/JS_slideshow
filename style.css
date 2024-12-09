@@ -1,0 +1,61 @@
+/** Write your CSS in here **/
+
+* {
+    box-sizing: border-box;
+  }
+
+  :root {
+    --color-black: #000;
+    --color-white: #F4F3E6;
+    --color-red: #4f0b06;
+  
+    --font-headings: 'Monospace';
+  
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+  }
+
+  .button-section {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: var(--spacing-medium) 0; 
+}
+
+ 
+img {
+    max-width: 82%;
+    height: auto;
+    border-radius: 5px;
+    margin: var(--spacing-medium) auto; /* !!!Centering image horizontally */
+}
+  
+  h2{
+   font-family: var(--font-headings);
+
+  }
+
+  body {
+    background-color: var(--color-white);
+    margin: 0;
+    padding: 0;
+    color: var(--color-cherry);
+    background-color: var(--color-white);
+    text-align: center;
+  }
+
+  button {
+    font-family: var(--font-headings);
+    font-size: 1rem;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border: none;
+    padding: var(--spacing-small) var(--spacing-medium);
+    cursor: pointer;
+    border-radius: 5px;
+    margin: var(--spacing-small);
+  }
+  
+  button:hover {
+    background-color: var(--color-red);
+  }
